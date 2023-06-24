@@ -14,13 +14,16 @@ html {
 body {
   font-size: 18px;
   background-color: hsl(218, 28%, 13%);
-  margin: 40px 10%;
+  margin: 40px 5%;
+  max-width: 374px;
+  color: #ffffff;
 }
 
 header {
   background-image: url(./images/bg-curvy-mobile.svg);
   background-position: top center;
   background-size: cover;
+  margin-bottom: 7rem;
 }
 
 header .logo {
@@ -49,6 +52,62 @@ header ul li {
 
 header img:nth-child(2) {
   width: 100%;
-  
+  margin-bottom: 2rem;
+}
+
+header h2, p {
+  text-align: center;
+  line-height: 1.6;
+}
+
+header h2 {
+  padding-bottom: 20px;
+}
+
+header button {
+  background-color: hsl(198, 60%, 50%);
+  width: 250px;
+  padding: 15px 60px;
+  border: none;
+  margin: 30px 60px;
+  color: #ffffff;
+  border-radius: 100px;
+}
+
+.access {
+  text-align: center;
+  /* gap: 20px; */
+}
+
+.access .icon {
+  padding-bottom: 5em;
+}
+
+.access img {
+  padding-bottom: 1em;
+}
+
+.access h3 {
+  padding-bottom: 1em;
+}
+
+.productive {
+  margin: 4em 0;
+  /* text-align: center; */
+}
+
+.productive img:first-child {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.productive h3 {
+  padding-bottom: 1em;
+  /* text-align: center; */
+}
+
+.productive p {
+  padding-bottom: 1em;
 }
 
