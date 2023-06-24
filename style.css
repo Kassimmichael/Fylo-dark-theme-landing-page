@@ -18,21 +18,23 @@ body {
   /* padding: 40px 5%; */
   max-width: 600px;
   color: #ffffff;
+  /* position: relative; */
 }
 
 header {
-  background-image: url(./images/bg-curvy-mobile.svg);
-  background-position: top center;
-  background-size: cover;
+  /* background-image: url(./images/bg-curvy-mobile.svg); */
+  /* background-position: top center;
+  background-size: cover; */
   margin-bottom: 7rem;
-  background-color: hsl(217, 28%, 15%);
+  /* background-color: hsl(217, 28%, 15%); */
+  width: 450px;
 }
 
 header .logo {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 90px;
+  gap: 50px;
   margin-bottom: 6em;
 }
 
@@ -71,7 +73,7 @@ header button {
   width: 250px;
   padding: 15px 60px;
   border: none;
-  margin: 30px 60px;
+  margin: 30px 100px;
   color: #ffffff;
   border-radius: 100px;
 }
@@ -79,6 +81,7 @@ header button {
 .access {
   text-align: center;
   /* gap: 20px; */
+  width: 450px;
 }
 
 .access .icon {
@@ -95,6 +98,7 @@ header button {
 
 .productive {
   margin: 4em 0;
+  width: 450px;
 }
 
 .productive .image {
@@ -163,7 +167,9 @@ header button {
 }
 
 .early-access {
-  width: 400px;
+  width: 450px;
+  height: 500px;
+  text-align: center;
   background-color: hsl(217, 28%, 15%);
 }
 
