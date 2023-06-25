@@ -251,7 +251,7 @@ footer ul li a {
   text-decoration: none;
 }
 
-footer .socials {
+footer .socials ul {
   display: flex;
   align-items: center;
   justify-content: center;
