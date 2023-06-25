@@ -217,12 +217,12 @@ header button {
 
 footer {
   background-color: hsl(216, 53%, 9%);
-  padding: 12em 5%;
+  padding: 5em 5%;
   /* margin-top: 5rem; */
 }
 
 footer .logo {
-  margin-top: 30px;
+  margin-top: 8em;
 }
 
 footer .location, .phone, .email {
