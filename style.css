@@ -139,14 +139,14 @@ header button {
 .reviews {
   margin-top: 9em;
   position: relative;
-  margin-bottom: 9em;
+  margin-bottom: 15em;
   padding: 20px 5%;
 }
 
 .reviews .quote {
   position: absolute;
   z-index: -1;
-  top: -30px;
+  top: -15px;
 }
 
 .reviews .card {
@@ -178,13 +178,14 @@ header button {
 
 .early-access {
   width: 450px;
-  /* height: 350px; */
   text-align: center;
   background-color: hsl(217, 28%, 15%);
   padding: 25px 20px;
   position: absolute;
-  bottom: ;
-  /* top: -500px; */
+  border-radius: 10px;
+  transform: translateY(-50%);
+  left: 20px;
+  /* top: 50px; */
 }
 
 .early-access h3 {
@@ -197,14 +198,14 @@ header button {
 
 .early-access input {
   width: 400px;
-  padding: 12px 24px;
+  padding: 15px 24px;
   border-radius: 100px;
   border: none;
 }
 
 .early-access button {
   width: 400px;
-  padding: 12px 24px;
+  padding: 15px 24px;
   border-radius: 100px;
   border: none;
   background-color: hsl(198, 60%, 50%);
@@ -216,7 +217,40 @@ header button {
 
 footer {
   background-color: hsl(216, 53%, 9%);
-  padding: 20px 5%;
+  padding: 12em 5%;
+  /* margin-top: 5rem; */
 }
 
+footer .logo {
+  margin-top: 30px;
+}
 
+footer .location, .phone, .email {
+  display: flex;
+  padding-top: 20px;
+  gap: 20px;
+  align-items: center;
+}
+
+footer .nav-links {
+  margin-top: 7rem;
+}
+
+footer .nav-links ul {
+  margin-bottom: 2em;
+}
+
+footer ul li {
+  list-style: none;
+  padding-bottom: 15px;
+  color: #ffffff;
+}
+
+footer ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer .socials ul a ion-icon {
+  color: #ffffff;
+}
