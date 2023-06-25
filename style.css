@@ -251,6 +251,13 @@ footer ul li a {
   text-decoration: none;
 }
 
+footer .socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
 footer .socials ul a ion-icon {
   color: #ffffff;
 }
