@@ -13,12 +13,17 @@ html {
 
 body {
   font-size: 18px;
+  /* padding: 20px 5%; */
   background-color: hsl(218, 28%, 13%);
-  margin: 40px 5%;
+  /* margin: 40px 5%; */
   /* padding: 40px 5%; */
-  max-width: 600px;
+  /* max-width: 600px; */
   color: #ffffff;
   /* position: relative; */
+}
+
+section {
+  /* padding: 20px 5%; */
 }
 
 header {
@@ -28,13 +33,13 @@ header {
   margin-bottom: 7rem;
   /* background-color: hsl(217, 28%, 15%); */
   width: 450px;
+  padding: 20px 5%;
 }
 
 header .logo {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 50px;
   margin-bottom: 6em;
 }
 
@@ -42,7 +47,7 @@ header nav ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 30px;
+  gap: 20px;
 }
 
 header ul li a {
@@ -55,7 +60,8 @@ header ul li {
 }
 
 header img:nth-child(2) {
-  width: 100%;
+  /* width: 100%; */
+  max-width: 100%;
   margin-bottom: 2rem;
 }
 
@@ -82,6 +88,7 @@ header button {
   text-align: center;
   /* gap: 20px; */
   width: 450px;
+  padding: 20px 5%;
 }
 
 .access .icon {
@@ -99,10 +106,12 @@ header button {
 .productive {
   margin: 4em 0;
   width: 450px;
+  padding: 20px 5%;
 }
 
 .productive .image {
-  width: 100%;
+  /* width: 100%; */
+  max-width: 100%;
   padding-bottom: 2em;
 }
 
@@ -131,6 +140,7 @@ header button {
   margin-top: 9em;
   position: relative;
   margin-bottom: 9em;
+  padding: 20px 5%;
 }
 
 .reviews .quote {
@@ -168,9 +178,44 @@ header button {
 
 .early-access {
   width: 450px;
-  height: 500px;
+  /* height: 350px; */
   text-align: center;
   background-color: hsl(217, 28%, 15%);
+  padding: 25px 20px;
+  position: absolute;
+  bottom: ;
+  /* top: -500px; */
 }
 
+.early-access h3 {
+  margin: 20px 0;
+}
+
+.early-access p {
+  padding-bottom: 30px;
+}
+
+.early-access input {
+  width: 400px;
+  padding: 12px 24px;
+  border-radius: 100px;
+  border: none;
+}
+
+.early-access button {
+  width: 400px;
+  padding: 12px 24px;
+  border-radius: 100px;
+  border: none;
+  background-color: hsl(198, 60%, 50%);
+  color: #ffffff;
+  margin-top: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: hsl(216, 53%, 9%);
+  padding: 20px 5%;
+}
 
