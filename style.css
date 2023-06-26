@@ -265,6 +265,14 @@ footer .socials ul a ion-icon {
     background-image: url(./images/bg-curvy-desktop.svg);
   }
 
+  h3 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 28px;
+  }
+
   header .bottom {
     text-align: center;
   }
@@ -305,6 +313,12 @@ footer .socials ul a ion-icon {
     flex-wrap: wrap;
     flex-direction: row; */
   }
+
+  .reviews p {
+    font-size: 22px;
+  }
+
+
 
   .reviews .quote {
     left: 70px;
